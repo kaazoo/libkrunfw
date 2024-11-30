@@ -1,0 +1,20 @@
+libkrunfw (4.5.1-1asahi5.24.04) noble; urgency=medium
+
+  * Build for noble
+  * Update dependencies
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Tue, 26 Nov 2024 06:52:00 +0100
+
+libkrunfw (4.5.1-1asahi4.24.10) oracular; urgency=medium
+
+  * Build for oracular
+  * Update dependencies
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Tue, 26 Nov 2024 00:37:00 +0100
+
+libkrunfw (4.5.1-1asahi1.24.04) noble; urgency=medium
+
+  * Build for noble
+  * Based on tag v4.5.1
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Sun, 24 Nov 2024 23:03:00 +0100
