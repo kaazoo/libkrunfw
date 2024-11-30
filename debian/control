@@ -1,0 +1,59 @@
+Source: libkrunfw
+Section: libs
+Priority: optional
+Maintainer: Andreas Schröder <andreas@kernelpanik.net>
+Build-Depends:
+ debhelper-compat (= 13),
+ python3-pyelftools,
+ build-essential,
+ gawk,
+ flex,
+ bison,
+ openssl,
+ libssl-dev,
+ libelf-dev,
+ libudev-dev,
+ autoconf,
+ bc,
+ cpio,
+ xz-utils,
+ fakeroot
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/containers/libkrunfw.git
+Vcs-Browser: https://github.com/containers/libkrunfw
+Homepage: https://github.com/containers/libkrunfw
+
+Package: libkrunfw
+Section: libs
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Pre-Depends: ${misc:Pre-Depends}
+Multi-Arch: same
+Description: libkrunfw -- runtime
+ libkrunfw is a library bundling a Linux kernel in a dynamic library in a way
+ that can be easily consumed by libkrun.
+ .
+ By having the kernel bundled in a dynamic library, libkrun can leave to the
+ linker the work of mapping the sections into the process, and then directly
+ inject those mappings into the guest without any kind of additional work nor
+ processing.
+
+# Package: libkrunfw-dev
+# Section: libdevel
+# Architecture: arm64 amd64
+# Depends:
+#  libkrunfw (= ${binary:Version}),
+#  ${misc:Depends},
+# Multi-Arch: same
+# Description: libkrunfw -- development files
+#  libkrunfw is a library bundling a Linux kernel in a dynamic library in a way
+#  that can be easily consumed by libkrun.
+#  .
+#  By having the kernel bundled in a dynamic library, libkrun can leave to the
+#  linker the work of mapping the sections into the process, and then directly
+#  inject those mappings into the guest without any kind of additional work nor
+#  processing.
+#  .
+#  Development files

@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libkrunfw
+Source: https://github.com/containers/libkrunfw
+
+Files: *
+Copyright: Sergio López
+License: LGPL-2.1
+
+Files: tarballs/linux-*.tar.xz
+Copyright: Linux kernel
+License: GPL-2
