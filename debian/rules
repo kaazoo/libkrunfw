@@ -8,10 +8,11 @@ export DH_VERBOSE=1
 # for some reason MAKEFLAGS was set to "w" in sub make execution
 MAKEFLAGS += --no-print-directory
 
-# change PREFIX and enable build options
+# change PREFIX and LIBDIR options
 override_dh_auto_build:
 	sed -i 's/usr\/local/usr/' Makefile
-	make -j12 GPU=1 VIRGL_RESOURCE_MAP2=1 BLK=1 NET=1 SND=1
+	sed -i 's/LIBDIR_Linux = lib64$$/LIBDIR_Linux = lib/' Makefile
+	make -j12
 
 %:
 	dh $@
