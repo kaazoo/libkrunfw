@@ -5,7 +5,6 @@ Maintainer: Andreas Schröder <andreas@kernelpanik.net>
 Build-Depends:
  debhelper-compat (= 13),
  python3-pyelftools,
- build-essential,
  gawk,
  flex,
  bison,
