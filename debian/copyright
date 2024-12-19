@@ -5,7 +5,11 @@ Source: https://github.com/containers/libkrunfw
 Files: *
 Copyright: Sergio López
 License: LGPL-2.1
+ The complete text of the GNU Lesser General Public License v2.1 can
+ be found in `/usr/share/common-licenses/LGPL-2.1`.
 
 Files: tarballs/linux-*.tar.xz
 Copyright: Linux kernel
 License: GPL-2
+ The complete text of the GNU General Public License v2 can be found
+ in `/usr/share/common-licenses/GPL-2'.
