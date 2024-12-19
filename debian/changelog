@@ -1,4 +1,4 @@
-libkrunfw (4.5.1-1asahi8.24.10) oracular; urgency=medium
+libkrunfw (4.5.1+ds.1-1asahi8.24.10) oracular; urgency=medium
 
   * Change library directory from /usr/lib64 to /usr/lib
   * Build for oracular

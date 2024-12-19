@@ -1,0 +1,6 @@
+The build runs curl to fetch Linux kernel sources which isn't compatible with
+our build process.  As a workaround we package the source directly in our
+.orig.tar.gz.
+
+debian/scripts/generate-tarball.sh can be used to generate a tarball from the
+source code directory.
