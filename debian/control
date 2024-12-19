@@ -19,8 +19,8 @@ Build-Depends:
  xz-utils,
  fakeroot
 Rules-Requires-Root: no
-Vcs-Git: https://github.com/containers/libkrunfw.git
-Vcs-Browser: https://github.com/containers/libkrunfw
+Vcs-Git: https://github.com/ubuntuasahi/libkrunfw.git
+Vcs-Browser: https://github.com/ubuntuasahi/libkrunfw
 Homepage: https://github.com/containers/libkrunfw
 
 Package: libkrunfw
