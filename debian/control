@@ -22,7 +22,7 @@ Vcs-Git: https://github.com/ubuntuasahi/libkrunfw.git
 Vcs-Browser: https://github.com/ubuntuasahi/libkrunfw
 Homepage: https://github.com/containers/libkrunfw
 
-Package: libkrunfw
+Package: libkrunfw4
 Section: libs
 Architecture: arm64
 Depends:
