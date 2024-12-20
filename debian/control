@@ -25,7 +25,7 @@ Homepage: https://github.com/containers/libkrunfw
 
 Package: libkrunfw4
 Section: libs
-Architecture: arm64
+Architecture: amd64 arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
@@ -42,7 +42,7 @@ Description: libkrunfw -- runtime
 
 Package: libkrunfw-dev
 Section: libdevel
-Architecture: arm64 amd64
+Architecture: amd64 arm64
 Depends:
  libkrunfw4 (= ${binary:Version}),
  ${misc:Depends},
