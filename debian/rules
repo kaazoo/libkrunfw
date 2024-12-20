@@ -8,11 +8,9 @@ export DH_VERBOSE=1
 # for some reason MAKEFLAGS was set to "w" in sub make execution
 MAKEFLAGS += --no-print-directory
 
-# change PREFIX and LIBDIR options
-override_dh_auto_build:
-	sed -i 's/usr\/local/usr/' Makefile
-	sed -i 's/LIBDIR_Linux = lib64$$/LIBDIR_Linux = lib/' Makefile
-	make -j12
+# change LIBDIR option
+override_dh_auto_configure:
+	sed -i 's/LIBDIR_Linux = lib64$$/LIBDIR_Linux = lib\/$(DEB_HOST_MULTIARCH)/' Makefile
 
 %:
-	dh $@
+	PREFIX=/usr dh $@
