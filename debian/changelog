@@ -1,3 +1,10 @@
+libkrunfw (4.7.1-1asahi1.24.04) noble; urgency=medium
+
+  * Build for noble
+  * Based on tag v4.7.1
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Sat, 8 Mar 2024 00:03:00 +0100
+
 libkrunfw (4.5.1+ds.1-1asahi8.24.10) oracular; urgency=medium
 
   * Change library directory from /usr/lib64 to /usr/lib
