@@ -1,3 +1,17 @@
+libkrunfw (4.10.0-1asahi1.25.04) plucky; urgency=medium
+
+  * Build for plucky
+  * Based on tag v4.10.0
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Mon, 14 Jul 2025 10:20:00 +0200
+
+libkrunfw (4.10.0-1asahi1.24.04) noble; urgency=medium
+
+  * Build for noble
+  * Based on tag v4.10.0
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Mon, 14 Jul 2025 10:01:00 +0200
+
 libkrunfw (4.9.0-1asahi1.25.04) plucky; urgency=medium
 
   * Build for plucky
