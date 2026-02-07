@@ -1,3 +1,10 @@
+libkrunfw (4.10.0-1asahi1.25.10) questing; urgency=medium
+
+  * Build for questing
+  * Based on tag v4.10.0
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Mon, 15 Sep 2025 21:41:00 +0200
+
 libkrunfw (4.10.0-1asahi1.25.04) plucky; urgency=medium
 
   * Build for plucky
