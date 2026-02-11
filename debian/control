@@ -30,6 +30,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
 Pre-Depends: ${misc:Pre-Depends}
+Replaces: libkrunfw4
 Multi-Arch: same
 Description: libkrunfw -- runtime
  libkrunfw is a library bundling a Linux kernel in a dynamic library in a way
