@@ -1,3 +1,24 @@
+libkrunfw (5.3.0-1asahi1.26.04) resolute; urgency=medium
+
+  * Build for resolute
+  * Based on tag v5.3.0
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Fri, 3 Apr 2026 18:27:00 +0200
+
+libkrunfw (5.3.0-1asahi1.25.10) questing; urgency=medium
+
+  * Build for questing
+  * Based on tag v5.3.0
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Fri, 3 Apr 2026 18:24:00 +0200
+
+libkrunfw (5.3.0-1asahi1.24.04) noble; urgency=medium
+
+  * Build for noble
+  * Based on tag v5.3.0
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Fri, 3 Apr 2026 17:46:00 +0200
+
 libkrunfw (5.2.0-1asahi2.25.10) questing; urgency=medium
 
   * Build for questing
