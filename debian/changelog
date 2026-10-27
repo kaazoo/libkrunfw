@@ -1,3 +1,10 @@
+libkrunfw (5.6.2-1asahi1.26.04) resolute; urgency=medium
+
+  * Build for resolute
+  * Based on tag v5.6.2
+
+ -- Andreas Schröder <andreas@kernelpanik.net>  Tue, 27 Oct 2026 13:20:00 +0100
+
 libkrunfw (5.5.0-1asahi1.26.04) resolute; urgency=medium
 
   * Build for resolute
